@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+	<head>
+		  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" >
+		  <title>Healthcare & Fitness: Home</title>
+		  <link rel="stylesheet" href="css/img.css">
+		  <link rel="stylesheet" href="css/words.css">
+		  <link rel="stylesheet" href="css/nav.css">
+		  <link rel="stylesheet" href="css/effects.css">
+      <link type="text/css" rel="stylesheet" href="css/slider.css"/>
+     <script>
+function bmr() {
+    var a,x,y,g,bmr, text;
+
+    
+    y = document.getElementById("numb").value;
+	g = document.getElementById("numb1").value;
+	x = document.getElementById("numb2").value;
+	a = document.getElementById("numb3").value;
+	if(g == male)
+	{
+		bmr=(10*x)+(6.25*y)-(5*a)+5;
+		text=" +bmr this is your calories to maintain your weight";
+	}
+	else 
+	{
+		bmr=(10*x)+(6.25*y)-(5*a)+161;
+		text=" +bmr this is your calories to maintain your weight";
+	}
+	
+    document.getElementById("demo").innerHTML = text;
+}</script>
+	 </head>
+	<body>
+		
+  <header>
+  	<div class="p"><a href="index.html"><img src="images/health_logo.jpg"></a></div>
+    <div class="nav">
+      <div id="rectangle" class="head">
+      <ul>
+        <li class="home"><a href="index.html">Home</a></li>
+        <li class="tutorials sub"><a href="recipes.html">Recipes</a>
+          <ul>
+            <li><a href="breakfast.html">Breakfast</a></li>
+            <li><a href="lunch.html">Lunch</a></li>
+            <li><a href="snacks.html">Snacks</a></li>
+            <li><a href="dinner.html">Dinner</a></li>
+          </ul>
+        </li>
+        <li class="tutorials sub"><a href="exercise.html">Excercise</a>
+          <ul>
+            <li><a href="Endurance.html">Endurance</a></li>
+            <li><a href="strength.html">Strength</a></li>
+            <li><a href="balance.html">Balance</a></li>
+		      	<li><a href="flexibility.html">Flexibility</a></li>
+          </ul>
+        </li>
+        <li class="articles"><a href="articles.html">Articles</a></li>
+        <li class="contact"><a href="contactus.html">Contact</a></li>
+        <li class="login"><a href="login.html">Login</a></li>
+        </div>
+      </ul>
+    </div>
+  </header>
+  <br><br><br><br><br><br>
+  <p>enter the height<input id="numb" type="number">
+  <br>enter the gender<input id="numb1" type="string"></p>
+enter the weight<input id="numb2" type="number">
+enter the age<input id="numb3" type="number">
+<button type="button" onclick="bmr()">Submit</button>
+
+<p id="demo"></p>
+	</body>
+</html>

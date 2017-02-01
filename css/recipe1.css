@@ -1,0 +1,19 @@
+.recipe p{
+	font-size: 30px;
+	margin-top: 50px;
+	text-align: center;
+}
+.recipe img{
+	width: 400px;
+	height: 300px;
+	margin-left: 400px;
+	margin-top: 20px;
+}
+.recipeinfo p{
+	text-align: left;
+	font-size: 20px;
+
+}
+.recipeinfo li{
+	font-size: 20px;
+}

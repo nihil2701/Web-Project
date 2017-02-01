@@ -1,0 +1,15 @@
+#title{
+	text-align: left;
+	margin-top: 100px;
+	margin-left: 50px;
+
+}
+#recipe{
+	margin-top: -20px;
+	margin-left: 50px;
+	width: 500px;
+	height: 400px;
+}
+#title:hover{
+	color: #33A133;
+}

@@ -1,0 +1,45 @@
+div.recipehead{
+	margin-top: 60px;
+	font-size: 35px;
+	text-align: center;
+}
+
+div.recipe{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	margin-top: -50px;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+#title{
+	text-align: left;
+}
+#recipe{
+	margin-left: 5px;	
+	width: 500px;
+	height: 400px;
+}
+#title:hover{
+	color: #33A133;
+}
+div.recipe2{
+	
+	width: 500px;
+	height: 500px;
+	margin-top: 50px;
+	margin-left: 650px;
+}
+#title2{
+	margin-top: -10px;
+	text-align: left;
+	
+}
+#recipe2{	
+	width: 560px;
+	height: 423px;
+}
+
+#title2:hover{
+	color: #33A133;
+}

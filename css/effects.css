@@ -1,0 +1,71 @@
+
+.hover01 figure img {
+	position:absolue;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.hover02 figure img {
+	
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .1s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.hover02 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.hover10 figure img {
+	
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.hover10 figure:hover img {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+}
+.l img
+{
+	width:300px;
+	hieght:300px;
+	
+}
+div.img1 {
+    margin-left: 0px;
+    padding: 10px;
+   
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img1 img {
+    display: inline;
+    margin: 1px;
+   width: 200px;
+} 
+}
+div.desc3 {
+  text-align: center;
+  font-weight: normal;
+  width: 100%;
+   
+}
+div.desc{
+  text-align: center;
+  font-weight: normal;
+  width: 100%;
+   
+}
+.space{
+	padding-bottom: 200px;
+}
